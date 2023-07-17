@@ -1,0 +1,194 @@
+
+
+/* global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.clearfix {
+  clear: both;
+}
+
+*, ::after, ::before {
+box-sizing: border-box;
+}
+
+body{
+  background-color:  #aed7eb;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.tittle{
+  background-color: white;
+  max-width:550px; 
+  box-shadow: 0 10px 10px #17203D;
+
+  
+}
+.tittle h2 {
+  color:#29396e;
+  font-weight: 600;
+
+}
+
+.card{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:620px !important;
+  transition:all 400ms;
+
+}
+.card-body{
+  box-shadow: 0 20px 65px rgba(87, 11, 16, 0.3);
+  border:#6095b180 1px solid;
+  width: 520px !important;
+}
+
+
+.card .quote{
+  width: 500px;
+   color: #17203D !important;
+  font-weight: 500;
+  font-size:24px;
+  text-align: left;
+  padding:15px;
+
+
+}
+.card .quote p{
+font-size: 18px;
+max-width:400px;
+
+}
+.card .author{
+  color: #17203D !important;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: right;
+}
+
+
+.card .btn{
+  background-color: #17203D;
+  color: white;
+
+}
+
+
+.fa-quote-left, .fa-quote-right {
+  font-size: 35px;
+  color: #6998b0;
+}
+
+
+hr {
+  text-align: center;
+  margin: 10px 50px;
+  width: 80%;
+  border: 1px solid black;
+  background-color: black;
+} 
+
+
+.card:hover {
+  box-shadow: 0 10px 10px #17203D;
+}
+
+/*============================= MediaQuary ================================*/
+
+@media screen and (max-width:540px){
+  .card-body{
+      width: 320px !important;
+      margin: 10px 0;
+      
+      
+    }
+    .card {
+        width: 400px !important;
+        
+    }  
+    
+    .card-body .quote {
+        text-align: center;
+        font-size: 16px !important;
+        max-width:300px !important;
+        padding:0px 10px;
+        font-weight: 200;
+    }
+
+    .tittle  {
+        margin-bottom: 1em !important;
+    }
+
+
+}
+
+
+
+@media screen and (min-width:541px) and (max-width:768px){
+  .card-body{
+      width: 420px !important;
+      margin: 5px 0;
+      
+      
+    }
+    .card {
+        width: 480px !important;
+        
+    }  
+    
+    .card-body .quote {
+        text-align: center;
+        font-size: 18px !important;
+        max-width:400px !important;
+        padding:0px 10px;
+        font-weight: 200;
+    }
+
+    .tittle  {
+        margin-bottom: 1em !important;
+        margin: auto;
+        padding: 50px 0 ;
+    }
+
+
+}
+
+
+@media screen and (min-width:769px) and (max-width:992px){
+  .card-body{
+      width: 430px !important;
+      margin: 5px 0;
+      
+      
+    }
+    .card {
+        width: 550px !important;
+        
+    }  
+    
+    .card-body .quote {
+        text-align: center;
+        font-size: 18px !important;
+        max-width:400px !important;
+        padding:0px 10px;
+        font-weight: 200;
+    }
+
+    .tittle  {
+        margin-bottom: 1em !important;
+        padding: 70px 0;
+    }
+
+
+}
+
+
+
+
